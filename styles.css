@@ -1,0 +1,105 @@
+*{
+    text-align:center;
+}
+body {
+    background-color: #0a0a23;
+  }
+  
+  #text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  img{
+    width:100%;
+    height:300px;
+  }
+  #speaker{
+    max-height:10px;
+
+  }
+  
+  #game {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    color: #ffffff;
+    margin:  2% auto;
+    border:10px solid #feac32
+  }
+  #controls,
+  #stats {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+  }
+  #controls{
+    border:none;
+    border-top:3px solid #feac32;
+
+    border-bottom:3px solid #feac32;
+  }
+  #monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+  }
+  #stats {
+    color:#feac32;
+  }
+  #audioPlayer {
+    display: none;
+}
+#text{
+  height: 50px;
+}
+@media (min-width:400px) and (max-width:700px){
+  *{
+    margin:0;
+    padding:0;
+  }
+  #body{
+    margin:0;
+    padding:0;
+  }
+  #game{
+    width:60%;
+    height: 100%;
+    font-size:12px;
+  }
+  button{
+    margin:2%;
+    padding:1%;
+    font-size:10px
+  }
+  #controls,#stats{
+    padding:2px;
+  }
+  #imagery{
+    background-color: #0a0a23;
+    border-bottom:2px solid #feac32;
+  }
+  img{
+    width:100%;
+    height:10rem;
+  }
+  #speaker{
+    height:10px;
+  }
+}

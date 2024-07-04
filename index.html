@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>RPG - Dragon Repeller</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+        <audio id="audioPlayer" loop>
+            <source src="https://www.televisiontunes.com/uploads/audio/Game%20of%20Thrones.mp3" type="audio/mpeg">
+        </audio>
+        
+        
+        <span id="audioControls">
+            <button id="playPauseButton" style="border-radius:100%;text-align:right;" ><img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/000000/speaker.png" id="speaker" alt="speaker"/></button>
+        </span>
+        
+         
+      </div>
+      <div id="controls">
+        <br>
+
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
+        <br>
+        <br>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="imagery">
+        <img id="vl" src="https://res.cloudinary.com/dsqpgmjah/image/upload/v1720027698/qhfiapke5szix2y0l2r3.jpg">
+      </div>
+      <div id="text">
+        Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
